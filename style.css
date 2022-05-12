@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.li{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 50px; */
+}
+li{
+    justify-content: space-between;
+    /* padding-left: 15px; */
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+.up{
+    padding-left: 15px;
+}
+.h3{
+    margin-top: 15px;
+}
+.hero{
+    background-image: url(/image/2021-rolls-royce-ghost-details.jpg);
+    background-size: cover;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.to{
+    color: navy;
+    text-align: center;
+    /* padding: 80px; */
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.card{
+    display: flex;
+    height: 90vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid white;
+
+}
+.box1{
+    width: 40%;
+    background-image: url(/image/civil.jfif);
+    background-size:cover; 
+    border: 5px solid white;
+}
+.box2{
+    width: 40%;
+    background-image:url(/image/defence.jfif);
+    background-size:cover; 
+    background-position: 70%;
+    border: 5px solid white;
+}
+.box3{
+    width: 40%;
+    background-image: url(/image/powers.jfif);
+    background-size:cover; 
+    border: 5px solid white;
+}.box4{
+    width: 40%;
+    background-image: url(/image/electrical.jfif);
+    background-size:cover; 
+    border: 5px solid white;
+    background-position: 70%;
+}
+.img{
+    width: 40px;
+    height: 40px;
+   
+}
+.log{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+header{
+    text-align: center;
+    padding: 25px;
+}
+p{
+    padding: 10px;
+}
+#rolls-royce{
+    height: 47.8px;
+    width: 47.5px;
+}
+.content{
+    background-color: white;
+    padding: 80px;
+}
+.con{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+}
+.ul{
+    /* display: grid; */
+}
+.a{
+    width: 20px;
+    height: 20px;
+}
+h4{
+    color:gray
+}
+.h4{
+    color: gray;
+}
+img:hover{
+    color: red;
+}
+.b{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    /* padding: 50px; */
+
+}
+.con1{
+    background-color: blue;
+    height: 70vh;
+
+}
+.hr{
+    margin: 30px;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
